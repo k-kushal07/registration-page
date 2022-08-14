@@ -8,6 +8,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="img-section flex">
+            <img src="./images/yellow-splash.png" alt="Yellow Splash" class="splash-img">
+            <img src="./images/phone-img.png" alt="Phone Mockup" class="mockup-img">
+        </div>
+        <div class="form-section flex flex-col">
+            <h1 class="form-header">Create Account</h1>
+            <form action="#" method="post" class="form">
+                <div class="row">
+                    <input type="text" name="fName" id="fName" placeholder="First Name" class="form-field">
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" class="form-field">
+                </div>
+                <div class="row">
+                    <input type="text" name="email" id="email" placeholder="Enter your email" class="form-field">
+                </div>
+                <div class="row">
+                    <input type="text" name="pswrd" id="pswrd" placeholder="Choose password" class="form-field">
+                    <input type="text" name="confirmPswrd" id="confirmPswrd" placeholder="Confirm password" class="form-field">
+                </div>
+                <button class="btn btn-submit">Create Account</button>
+            </form>
+            <div class="social-media-btns flex flex-col">
+                <div class="">OR</div>
+                <button class="btn btn-facebook">Facebook</button>
+                <button class="btn btn-twitter">Twitter</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
