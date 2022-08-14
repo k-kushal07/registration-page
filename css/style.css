@@ -87,3 +87,38 @@ body{
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    .form-field{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .form-header{
+        font-size: 1.5rem;
+    }
+    .form-field{
+        font-size: 1rem;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mockup-img{
+        display: none;
+    }
+    .main{
+        grid-template-columns: 1fr;
+    }
+    .form-section{
+        display: block;
+        margin: auto;
+    }
+    .form-field{
+        padding: 20px 30px;
+    }
+    .form-header{
+        text-align: center;
+    }
+}
